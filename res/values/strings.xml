@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ludovico</string>
+    <string name="agregar_foto">Agregar Foto</string>
+    <string name="agregar_producto">Agregar Producto</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="categoria">Categoria: </string>
+    <string name="nombre_producto">Nombre Producto: </string>
+    <string name="precio">Precio: </string>
+    <string name="foto">Foto</string>
+    <string name="mesas">Mesas</string>
+    <string name="clientes">Clientes</string>
+    <string name="agregar_categoria">Agregar Categoria</string>
+    <string name="nombre_categoria">Nombre Categoria: </string>
+    <string name="agregar">Agregar</string>
+    <string name="volver">Volver</string>
+    <string name="opciones">Opciones</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="importe">Importe</string>
+    <string name="terminar">Terminar</string>
+    <string name="detalle">Detalle</string>
+    <string name="total">Total: </string>
+    <string name="agregar_pedido">Agregar Pedido</string>
+    <string name="borrar_pedidos">Borrar Pedidos</string>
+    <string name="ludovico_version">Ludovico 1.0</string>
+    <string name="desarrollado_por">Desarrollada por: </string>
+    <string name="contacto">Contacto: </string>
+    <string name="mail">maurocg89@gmail.com</string> 
+    <string name="lista_categorias">Lista de Categorias</string>
+    <string name="lista_productos">Lista de Productos</string>
+    <string name="mauro_grillo">Mauro Grillo</string>
+    <string name="modificar_pedido">Modificar Pedido</string>
+    <string name="nombre">Nombre:</string>
+    <string name="importe1">Importe:</string>
+    
+	<string name="modificar">Modificar</string>
+	
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" 
+            
+        />
+    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ludovico_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ActivityMesas">
+        </activity>
+        <activity android:name="DetalleMesa" >
+        </activity>
+         <activity android:name="DetalleCliente" >
+        </activity>
+         <activity android:name="ModificarPedido" >
+        </activity>
+        <activity android:name="ListaCategoria" >
+        </activity>
+        <activity android:name="ListaProducto" >
+        </activity>
+          <activity android:name="AgregarProducto" >
+        </activity>
+          <activity android:name="AgregarCategoria" >
+        </activity>
+           <activity android:name="AgregarCliente" >
+        </activity>
+        <activity android:name="ElegirCategoria" >
+        </activity>
+         <activity android:name="AgregarPedido" >
+        </activity>
+        <activity android:name="AgregarMesa">
+        </activity>
+        <activity android:name="ListaCliente">
+        </activity>
+         <activity android:name="Info" >
+        </activity>
+        
+    </application>
+
+</manifest>
